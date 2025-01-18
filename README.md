@@ -1,25 +1,63 @@
-<!-- GETTING STARTED -->
-## Getting Started
-To get a local copy up and running follow these simple example steps.
+# 🌟 Topic Modeling for Market Trends
 
-create new folder in desktop then drag and drop in ide (vs studio code)
+## **🚀 Getting Started**
 
-open terminal (should already be cd'd in project folder)
+Follow these steps to set up the project environment and get started:
 
-create a virtual environment by running: python3 -m venv .venv
+### **1️⃣ Create a New Project Folder**
+- 🖥️ Create a new folder on your desktop.
+- 🎯 Open Visual Studio Code and drag and drop the folder into the IDE.
 
-activate the ve by running: source .venv/bin/activate
+### **2️⃣ Open the Terminal**
+- 💻 Ensure the terminal is opened in the project folder. If not, use:
+  ```bash
+  cd /path/to/your/project/folder
+  ```
 
-pip install notebook ipykernel pandas numpy gensim nltk pyLDAvis matplotlib
+### **3️⃣ Create a Virtual Environment**
+- 🛠️ Run the following command to create a virtual environment:
+  ```bash
+  python3 -m venv .venv
+  ```
 
-register ve as a jupyter kernel python -m ipykernel install --user --name .venv --display-name "Python (.venv)"
+### **4️⃣ Activate the Virtual Environment**
+- ✅ Activate the virtual environment by running:
+  ```bash
+  source .venv/bin/activate
+  ```
 
-install python and juptyer code extensions from marketplace
+### **5️⃣ Install Dependencies**
+- 📦 Install the required Python libraries:
+  ```bash
+  pip install notebook ipykernel pandas numpy gensim nltk pyLDAvis matplotlib
+  ```
 
-create new file and save it as .ipynb
+### **6️⃣ Register the Virtual Environment as a Jupyter Kernel**
+- 🔗 Register the virtual environment:
+  ```bash
+  python -m ipykernel install --user --name .venv --display-name "Python (.venv)"
+  ```
 
-select the python kernel in the top right corner (button that says kernel) then select python (.venv) if not showing up restart ide
+### **7️⃣ Install VS Code Extensions**
+- 🛍️ Install the following extensions from the VS Code marketplace:
+  - **🐍 Python**
+  - **📓 Jupyter**
 
-test it: select code cell and paste then run:
+### **8️⃣ Create a New Notebook File**
+- 📄 Create a new file and save it with the `.ipynb` extension.
 
-import sys print(sys.version) import pandas as pd print(pd.version)
+### **9️⃣ Select the Python Kernel**
+- 🎛️ In the top-right corner of the notebook interface, click on the kernel dropdown.
+- 🔄 Select `Python (.venv)` as the kernel. If it doesn’t appear, restart VS Code.
+
+### **🔟 Test the Setup**
+- 🧪 Insert the following code into a notebook cell and run it to verify:
+  ```python
+  import sys
+  print(sys.version)
+  
+  import pandas as pd
+  print(pd.__version__)
+  ```
+
+---

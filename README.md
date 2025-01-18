@@ -1,3 +1,7 @@
+<!-- GETTING STARTED -->
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+
 create new folder in desktop then drag and drop in ide (vs studio code)
 
 open terminal (should already be cd'd in project folder)

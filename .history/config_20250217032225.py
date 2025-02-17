@@ -1,0 +1,5 @@
+REDDIT_CLIENT_ID = "7t-zD_YzmiwGV91w7R_AOg"
+REDDIT_CLIENT_SECRET = "LKqEpLkVeT2GTq2Lx5uWOOlb-SIIPg"
+REDDIT_USERNAME = "ullaangell"
+REDDIT_PASSWORD = "rymcy8-poxtyx-hinNeg"
+REDDIT_USER_AGENT = "MarketTrendsScraper v1.0"

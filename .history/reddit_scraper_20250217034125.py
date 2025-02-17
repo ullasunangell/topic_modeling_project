@@ -19,12 +19,12 @@ def scrape_reddit(subreddit_name, limit=100):
     subreddit = reddit.subreddit(subreddit_name)
     posts = []
 
-    for post in subreddit.hot(limit=limit):  # get top 100 hot posts
+    for post in subreddit.hot(limit=limit):  # Get top 100 hot posts
         posts.append([post.title, post.selftext, post.score, post.num_comments, post.created_utc, post.url])
 
     df = pd.DataFrame(posts, columns=["Title", "Text", "Upvotes", "Comments", "Timestamp", "URL"])
     df.to_csv(f"data/{subreddit_name}_posts.csv", index=False)
     print(f"✅ Saved {len(df)} posts from r/{subreddit_name}")
 
-# test: scrape 100 posts from r/stocks
+# Example: Scrape 100 posts from r/stocks
 scrape_reddit("stocks", limit=100)

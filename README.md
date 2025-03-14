@@ -20,7 +20,7 @@ Follow these steps to set up the project environment and get started:
   python3 -m venv .venv
   ```
 
-### **4️⃣ Activate the Virtual Environment**
+### **4️⃣ Activate Virtual Environment**
 - ✅ Activate the virtual environment by running:
   ```bash
   source .venv/bin/activate

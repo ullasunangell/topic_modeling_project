@@ -25,3 +25,4 @@ models/
 Thumbs.db
 
 /config.py
+.venv/

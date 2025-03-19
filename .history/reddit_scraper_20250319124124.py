@@ -28,6 +28,6 @@ def scrape_reddit(subreddit_name, limit=500):
 
     df = pd.DataFrame(posts, columns=["Title", "Text", "Upvotes", "Comments", "Timestamp", "URL"])
     df.to_csv(f"data/{subreddit_name}_raw_{len(df)}_posts.csv", index=False)
-    print(f"saved {len(df)} posts from r/{subreddit_name}")
+    print(f"✅ Saved {len(df)} posts from r/{subreddit_name}")
 
 scrape_reddit("stocks", limit=500)

@@ -25,3 +25,5 @@ models/
 Thumbs.db
 
 /config.py
+.venv/
+nltk_data/

@@ -41,5 +41,5 @@ def scrape_reddit(subreddits, limit=1000):
     print(f"scraped a total of {len(final_df)} posts from {len(subreddits)} subreddits!")
 
 # list of subreddits to scrape
-subreddits = ["stocks", "investing", "wallstreetbets", "finance", "cryptocurrency", "algotrading"]
+subreddits = ["stocks", "investing", "wallstreetbets", "finance"]
 scrape_reddit(subreddits, limit=1000)

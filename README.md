@@ -1,3 +1,5 @@
+an article from the MIT Sloan School of Management, “a majority of data (80% to 90%, according to multiple analyst estimates) is unstructured information like text, video, audio, web server logs, social media, and more. That’s a huge untapped resource with the potential to create competitive advantage for companies that figure out how to use it. Unlike structured data — which is organized in a searchable format, like a database — unstructured data doesn’t adhere to conventional data models.”
+
 # 🌟 Topic Modeling for Market Trends
 
 ### **Create a New Project Folder**
